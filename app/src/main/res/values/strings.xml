@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Abel</string>
+    <string name="abel">Von Abelitoooooo</string>
+    <string name="str_home">Home</string>
+    <string name="str_message">Message</string>
+    <string name="str_account">Compte</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
