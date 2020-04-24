@@ -17,12 +17,12 @@ class MainActivity : AppCompatActivity()
         when(item.itemId)
         {
             R.id.home -> {
-                Toast.makeText(this@MainActivity,"Home pressed", Toast.LENGTH_LONG).show()
+                Toast.makeText(this@MainActivity, getText(R.string.abel), Toast.LENGTH_LONG).show()
                 return@onNavigationItemSelectedListener true
             }
 
             R.id.message -> {
-                //Toast.makeText(this@MainActivity,"Message pressed", Toast.LENGTH_LONG).show()
+                //Toast.makeText(this@MainActivity,getText(R.findViewB), Toast.LENGTH_LONG).show()
                 setContentView(R.layout.abel_layout)
                 return@onNavigationItemSelectedListener true
             }
